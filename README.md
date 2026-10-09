@@ -62,7 +62,3 @@ jupyter lab notebooks/signlanguage.ipynb                # Run All
    ModelCheckpoint on `val_accuracy`, GAP → Dropout(0.5) → Dense(26, softmax, L2 1e-4).
 5. **Evaluation** – accuracy, macro/weighted precision-recall-F1, per-class report and
    confusion-matrix heat-map.
-
-## License
-
-MIT – see [`LICENSE`](LICENSE).
