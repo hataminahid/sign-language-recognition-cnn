@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33244109/README.md)
 # American Sign Language letter recognition – transfer learning with CNNs
 
 Course project for *Advanced Data Mining* (Assignment 3: Convolutional Neural
@@ -62,17 +61,4 @@ jupyter lab notebooks/signlanguage.ipynb                # Run All
    ModelCheckpoint on `val_accuracy`, GAP → Dropout(0.5) → Dense(26, softmax, L2 1e-4).
 5. **Evaluation** – accuracy, macro/weighted precision-recall-F1, per-class report and
    confusion-matrix heat-map.
-
-## License
-
-MIT – see [`LICENSE`](LICENSE).
-
----
-
-## خلاصه‌ی فارسی
-
-پروژه‌ی تشخیص حروف زبان اشاره‌ی آمریکایی (ASL) برای درس «داده‌کاوی پیشرفته» (تمرین ۳: شبکه‌های کانولوشنی). تصاویر با bounding box برش داده می‌شوند، با padding به ۱۲۸×۱۲۸ تغییر اندازه می‌یابند، به بازه‌ی [0,1] نرمال می‌شوند و با دو مدل EfficientNetB0 و MobileNetV2 (یادگیری انتقالی در دو مرحله) طبقه‌بندی می‌شوند. دقت آزمون: EfficientNetB0 برابر ۶۲٫۵٪ و MobileNetV2 برابر ۶۹٫۴۴٪؛ مدل نهایی MobileNetV2 است.
-
-**اجرا:** داده را طبق `data/README.md` در `data/SignLanguageData/{train,valid,test}` بگذارید، `pip install -r requirements.txt` را بزنید و نوت‌بوک `notebooks/signlanguage.ipynb` را اجرا کنید. وزن‌های ImageNet خودکار دانلود می‌شوند (یا فایل‌های `.h5` را در `weights/` بگذارید).
-
-گزارش کامل (پاسخ سؤالات تحلیلی ۱ تا ۱۰ و بخش عملی) در `docs/technical_report_fa.pdf` است. نکات و مشکلات شناخته‌شده (از جمله احتمال نشت داده‌ی نزدیک‌به‌تکراری بین splitها و کوچک بودن مجموعه‌ی آزمون) در [`NOTES.md`](NOTES.md) آمده است.
+(NOTES.md)
