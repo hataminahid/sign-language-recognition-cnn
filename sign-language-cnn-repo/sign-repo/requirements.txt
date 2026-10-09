@@ -1,0 +1,10 @@
+# Notebook was run with Python 3.11.9 and Keras 3 (TensorFlow >= 2.16)
+tensorflow>=2.16
+numpy
+pandas
+opencv-python
+tqdm
+matplotlib
+seaborn
+scikit-learn
+jupyter
