@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/33244493/README.md)
 # American Sign Language letter recognition – transfer learning with CNNs
 
 Course project for *Advanced Data Mining* (Assignment 3: Convolutional Neural
@@ -61,4 +62,7 @@ jupyter lab notebooks/signlanguage.ipynb                # Run All
    ModelCheckpoint on `val_accuracy`, GAP → Dropout(0.5) → Dense(26, softmax, L2 1e-4).
 5. **Evaluation** – accuracy, macro/weighted precision-recall-F1, per-class report and
    confusion-matrix heat-map.
-(NOTES.md)
+
+## License
+
+MIT – see [`LICENSE`](LICENSE).
